@@ -15,4 +15,5 @@ function darkmode(){
         document.getElementsByClassName('suin')[0].style.backgroundColor='rgb(147, 168, 196)';
         document.querySelector('body').style.color="black";
     }
+    //여기 수정했다고
 }

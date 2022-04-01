@@ -18,6 +18,9 @@
         font-family: 'Nanum Pen Script', cursive;
     }
         button{
+            position:absolute;
+            top:1%;
+            left:88%;
             border-radius: 5px;
             border:1px solid rgb(255, 255, 255);
             background-color: rgb(147, 168, 196);
@@ -61,14 +64,14 @@
 /* 주소아이콘 */
         .site{
             position: absolute;
-            top: 760px;
-            left: 190px; 
+            top: 93%;
+            left: 53%; 
         }
 /* 주소아이콘2 */
         .site2{
             position: absolute;
-            top: 760px;
-            left: 257px; 
+            top: 93%;
+            left: 47%; 
         }
 /* 정보창(+아이콘있는) */
         .genius{
@@ -82,6 +85,29 @@
             color: rgb(66, 75, 83);
         }
 
+        @media(max-width: 800px){
+            button{
+                top:1%;
+                left:85%;
+            }
+            .genius{
+            top: 700px;
+            left:10px;
+            }
+            .suin{
+            top: 1030px;
+            left:10px;
+            }
+            .site{
+            position: absolute;
+            top: 620px;
+            left: 320px; 
+            }
+            .site2{
+            top: 680px;
+            left: 320px; 
+        }
+        }
 </style>
 
 <body> 
@@ -161,8 +187,6 @@
 
     <div class="picture"><br>
     <img src="./images/bird.png" height="615px">
-    
-    
     </div>
 
     <button onclick="darkmode()" id="button">다크모드</button>
